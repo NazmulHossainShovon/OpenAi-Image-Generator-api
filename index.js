@@ -5,8 +5,6 @@ const port = process.env.PORT || 4000;
 
 const app = express();
 
-app.use(cors());
-
 //this is needed to receive JSON data
 app.use(express.json());
 //this is needed to receive form data
